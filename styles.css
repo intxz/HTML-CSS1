@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#title {
+    text-align: center;
+    color: #333;
+    padding-top: 30px;
+}
+
+#description {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
+
+#survey-form {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+fieldset legend {
+    font-size: 1.2em;
+    color: #333;
+    padding: 0 10px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #333;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    vertical-align: top;
+    margin-right: 10px;
+    padding-top: 5px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 300px;
+    padding: 5px;
+    font-size: 1.1em;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 300px;
+    padding: 5px;
+    font-size: 1.1em;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    padding: 5px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
+
+textarea {
+    width: 300px;
+    padding: 5px;
+    font-size: 1.1em;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+

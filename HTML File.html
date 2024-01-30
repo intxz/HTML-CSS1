@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Proyecto1</title>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1 id="title">HTML/CSS PROJECT 1</h1>
@@ -26,12 +26,23 @@
     </fieldset>
     <fieldset>
         <legend>Would you recommend this page to somebody?</legend>
-        <label><input type="radio" value="yes" name="w">Yes, sure :D </label>
-        <label><input type="radio" value="maybe" name="w">Maybe :/ </label>
-        <label><input type="radio" value="no" name="w"> No, I don't >:( </label>
+        <label for="yes"><input type="radio" value="yes" name="w" id="yes">Yes, sure :D </label>
+        <label for="maybe"><input type="radio" value="maybe" name="w" id="maybe">Maybe :/ </label>
+        <label for="no"><input type="radio" value="no" name="w" id="no"> No, I don't >:( </label>
     </fieldset>
-
-
+    <fieldset id="last-fieldset">
+        <p>What would you like to learn?</p>
+        <label for="Web"><input type="checkbox" id="Web" value="Web" name="Web">Web Design</label>
+        <label for="JavaScript"><input type="checkbox" id="JavaScript" value="JavaScript" name="JavaScript">JavaScript Algorithms and Data Structures</label>
+        <label for="Front"><input type="checkbox" id="Front" value="Front" name="Front">Front End Development</label>
+        <label for="Visualization"><input type="checkbox" id="Visualization" value="Visualization" name="Visualization">Data Visualization</label>
+        <label for="Databases"><input type="checkbox" id="Databases" value="Databases" name="Databases">Relational Databases</label>
+        <label for="Backend"><input type="checkbox" id="Backend" value="Backend" name="Backend">Back End Development and APIs</label>
+        <label for="other"><input type="checkbox" id="other" value="other" name="other">Other</label>
+        <p>If you select "Other", please write what you want to learn</p>    
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea> 
+    </fieldset>
+    <input type="submit" value="Submit" id="submit">
 </form>
 </body>
 </html>
