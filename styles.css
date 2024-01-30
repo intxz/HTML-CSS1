@@ -13,8 +13,9 @@ body {
 
 #description {
     text-align: center;
-    color: #666;
-    padding: 20px;
+    color: #333;
+    font-size: 20px;
+    padding:20px
 }
 
 #survey-form {
