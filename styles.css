@@ -35,43 +35,39 @@ fieldset legend {
     padding: 0 10px;
     background-color: #f0f0f0;
     border-left: 5px solid #333;
+    margin-bottom: 10px;
 }
 
 label {
-    display: inline-block;
-    width: 150px;
-    text-align: right;
-    vertical-align: top;
-    margin-right: 10px;
-    padding-top: 5px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
     font-size: 1.1em;
     color: #333;
 }
 
-input[type="text"], input[type="email"], input[type="number"], textarea {
-    width: 300px;
-    padding: 5px;
-    font-size: 1.1em;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
 select {
-    width: 300px;
+    width: 100%;
     padding: 5px;
     font-size: 1.1em;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
-input[type="radio"], input[type="checkbox"] {
-    margin-right: 10px;
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
 }
 
 input[type="submit"] {
-    width: 150px;
+    width: 100%;
     padding: 5px;
     font-size: 1.1em;
     color: #fff;
@@ -86,7 +82,7 @@ input[type="submit"]:hover {
 }
 
 textarea {
-    width: 300px;
+    width: 100%;
     padding: 5px;
     font-size: 1.1em;
     color: #333;
@@ -94,4 +90,3 @@ textarea {
     border-radius: 5px;
     resize: vertical;
 }
-
