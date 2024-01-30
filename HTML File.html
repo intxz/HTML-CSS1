@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto1</title>
+
+</head>
+<body>
+<h1 id="title">HTML/CSS PROJECT 1</h1>
+<p id="description"></p>
+<form id="survey-form">
+    <fieldset>
+        <label for="name" id="name-label">Name: </label>
+        <input id="name" name="name" type="text" placeholder="Your Name" required />
+        <label for="email" id="email-label">Email: </label>
+        <input id="email" name="email" type="email" placeholder="Your Email" required />
+        <label for="number" id="number-label">Age: </label>
+        <input id="number" name="number" type="number" min="13" max="100" placeholder="Your Age" />
+        <label for="dropdown">Sex:</label>
+        <select id="dropdown" required>
+            <option disabled selected value>Select One</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Would you recommend this page to somebody?</legend>
+        <label><input type="radio" value="yes" name="w">Yes, sure :D </label>
+        <label><input type="radio" value="maybe" name="w">Maybe :/ </label>
+        <label><input type="radio" value="no" name="w"> No, I don't >:( </label>
+    </fieldset>
+
+
+</form>
+</body>
+</html>
